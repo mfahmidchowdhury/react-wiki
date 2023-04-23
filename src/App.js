@@ -1,8 +1,12 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap";
 
 function App() {
   return (
     <div className="App">
-      React Project
+      <h1 className="text-center ubuntu">
+        Rick & Morty <span className="text-primary">Wiki</span>
+      </h1>
     </div>
   );
 }
